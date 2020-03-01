@@ -10,10 +10,8 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            SizedBox(
-              height: 16,
-            ),
             CircleAvatar(
               radius: 50,
               backgroundImage: AssetImage('images/avatar.jpg'),
@@ -39,7 +37,6 @@ class MyApp extends StatelessWidget {
               color: Colors.white,
             ),
             Card(
-
               margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
               color: Colors.white,
               child: Padding(
